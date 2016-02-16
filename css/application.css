@@ -1,3 +1,6 @@
+h1 {
+  font-size: 3em
+}
 
 .custom-box {
   height: 300px;
@@ -8,32 +11,106 @@
 
 .img-responsive {
   height: 50%;
+  float: left;
 }
 
-
-body {
-    /*background-color: green;*/
-}
-
-@media (min-width: 768px) {
-  body {
-      /*background-color: red;*/
-  }
-
+.custom-box h3 {
+  float: left;
+  font-size: 1.2em;
+  padding-left: 10px;
 }
 
 @media (min-width: 992px) {
-  body {
-      /*background-color: blue;*/
+  .med-size {
+    width: 33.3333333%;
+    float: left;
   }
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: white;
+}
+
+footer {
+  height: 50%;
+  background: #b6c7bd;
+  padding: 20px;
+}
+
+
+/*Object Oriented CSS + Scalable & Modularr CSS*/
+
+/* base */
+
+/* layout */
+
+/* module */
+
+/* state */
+
+/* theme */
+
+
+
+
+
+
+
+/* BEM */
+
+.column {
+}
+
+.column-content {
 
 }
 
-@media (min-width: 1200px) {
-  body {
-      /*background-color: white;*/
-  }
+.column-content__title {
+
 }
+
+.link {
+
+}
+
+.link--hover {
+
+}
+
+
+
+/* Atomic */
+
+
+.h50 {
+
+}
+
+.backgc {
+
+}
+
+.m10 {
+
+}
+
+.fL {
+
+}
+
+.p20 {
+
+}
+
+
+
+
+
+
 
 
 
